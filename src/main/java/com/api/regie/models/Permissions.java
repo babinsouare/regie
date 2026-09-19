@@ -36,7 +36,7 @@ public class Permissions {
     @JsonProperty()
     private String description;
 
-    @Column(name = "module", unique = true)
+    @Column(name = "module")
     @JsonProperty()
     private String module;
 
