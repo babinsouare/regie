@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ogp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
@@ -204,6 +205,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SecurityUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SignatureEncryptionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SignatureEncryptionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SoutraTxnStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SoutraTxnStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/api/ogp/ApiOGPApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/regie/ApiOGPApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -431,7 +433,7 @@
       <workItem from="1783773034867" duration="4751000" />
       <workItem from="1784371736603" duration="6599000" />
       <workItem from="1786743121812" duration="82000" />
-      <workItem from="1789849595313" duration="2938000" />
+      <workItem from="1789849595313" duration="3602000" />
     </task>
     <servers />
   </component>
