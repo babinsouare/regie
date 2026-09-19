@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cca40ce8-74c1-47fd-af29-d59489e92384" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ogp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/ApiOGPApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/ApiRegieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/config/CampagnesScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/config/CampagnesScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/config/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/CampagneStatutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/CampagneStatutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/CampagnesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/CampagnesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/CaracteristiquePanneauxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/CaracteristiquePanneauxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/CategoriePanneauxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/CategoriePanneauxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/ClientAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/ClientAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/ClientsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/ClientsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/CommuneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/CommuneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/DevisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/DevisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/EvenementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/EvenementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/FactureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/FactureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/LogsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/LogsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/ModePaiementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/ModePaiementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/PaiementsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/PaiementsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/PanneauxCampagneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/PanneauxCampagneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/PanneauxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/PanneauxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/PermissionProfilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/PermissionProfilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/PermissionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/PermissionsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/ProfilsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/ProfilsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/QuartierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/QuartierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/RegionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/RemiseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/RemiseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/SecteurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/SecteurController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/SoutraConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/SoutraConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/SoutraPaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/SoutraPaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/StatutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/StatutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/TarifsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/TarifsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/TypeClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/TypeClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/TypeEvenementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/TypeEvenementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/AuthResponseSoutra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/AuthResponseSoutra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/CampagneDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/CampagneDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/CampagneRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/CampagneRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/DataResponseSoutra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/DataResponseSoutra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/PermissionsBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/PermissionsBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/ProfileWithPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/ProfileWithPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/ProfileWithPermissionsProfils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/ProfileWithPermissionsProfils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/SoutraCheckStatusRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/SoutraCheckStatusRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/SoutraInitiatePaymentRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/SoutraInitiatePaymentRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/SoutraInitiateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/SoutraInitiateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/SoutraTransactionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/SoutraTransactionInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/TransfertResponseSoutra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/TransfertResponseSoutra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/dto/UpdatePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/dto/UpdatePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/CampagneStatutImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/CampagneStatutImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/CampagnesImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/CampagnesImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/CaracteristiquePanneauxImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/CaracteristiquePanneauxImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/CategoriePanneauxImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/CategoriePanneauxImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/ClientsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/ClientsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/CommuneImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/CommuneImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/DevisImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/DevisImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/EvenementImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/EvenementImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/FactureImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/FactureImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/LogsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/LogsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/ModePaiementImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/ModePaiementImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/NotificationJournalImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/NotificationJournalImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/NotificationParametrageImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/NotificationParametrageImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/PaiementsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/PaiementsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/PanneauxCampagneImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/PanneauxCampagneImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/PanneauxImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/PanneauxImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/PermissionUsersImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/PermissionUsersImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/PermissionsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/PermissionsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/PermissionsProfilImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/PermissionsProfilImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/ProfilsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/ProfilsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/QuartierImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/QuartierImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/RegionImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/RegionImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/RemiseImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/RemiseImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/SecteurImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/SecteurImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/SoutraConfigImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/SoutraConfigImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/StatutImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/StatutImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/TarifsImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/TarifsImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/TypeClientImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/TypeClientImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/TypeEvenementImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/TypeEvenementImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/implementations/Userslmplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/implementations/Userslmplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/CampagneStatut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/CampagneStatut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Campagnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Campagnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/CaracteristiquePanneaux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/CaracteristiquePanneaux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/CategoriePanneaux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/CategoriePanneaux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Clients.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Clients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Commune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Commune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Devis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Devis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Evenement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Evenement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Facture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Facture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/ModePaiement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/ModePaiement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/NotificationJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/NotificationJournal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/NotificationParametrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/NotificationParametrage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Paiements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Paiements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Panneaux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Panneaux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/PanneauxCampagne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/PanneauxCampagne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/PermissionProfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/PermissionProfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/PermissionUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/PermissionUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Profils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Profils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Quartier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Quartier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Remise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Remise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Secteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Secteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/SoutraConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/SoutraConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Statut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Statut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Tarifs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Tarifs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/TypeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/TypeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/TypeEvenement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/TypeEvenement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/models/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/EmailSenderSimule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/EmailSenderSimule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/NotificationContexte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/NotificationContexte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/NotificationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/NotificationEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/NotificationEvenements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/NotificationEvenements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/NotificationScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/NotificationScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/NotificationSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/NotificationSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/PaiementsScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/PaiementsScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/PushSenderSimule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/PushSenderSimule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/notifications/SmsSenderSimule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/notifications/SmsSenderSimule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/CampagneStatutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/CampagneStatutRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/CampagnesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/CampagnesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/CaracteristiquePanneauxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/CaracteristiquePanneauxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/CategoriePanneauxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/CategoriePanneauxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/ClientsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/ClientsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/CommuneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/CommuneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/DevisRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/DevisRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/EvenementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/EvenementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/FactureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/FactureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/LogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/LogsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/ModePaiementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/ModePaiementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/NotificationJournalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/NotificationJournalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/NotificationParametrageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/NotificationParametrageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/PaiementsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/PaiementsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/PanneauxCampagneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/PanneauxCampagneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/PanneauxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/PanneauxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/PermissionProfilRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/PermissionProfilRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/PermissionUsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/PermissionUsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/PermissionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/PermissionsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/ProfilsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/ProfilsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/QuartierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/QuartierRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/RegionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/RemiseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/RemiseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/SecteurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/SecteurRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/SoutraConfigRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/SoutraConfigRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/StatutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/StatutRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/TarifsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/TarifsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/TypeClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/TypeClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/TypeEvenementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/TypeEvenementRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/repository/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/security/JWTAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/security/JWTAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/security/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/security/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/security/SecurityBeansConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/security/SecurityBeansConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/security/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/security/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/CampagneStatutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/CampagneStatutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/CampagneTransitionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/CampagneTransitionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/CampagnesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/CampagnesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/CaracteristiquePanneauxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/CaracteristiquePanneauxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/CategoriePanneauxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/CategoriePanneauxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/ClientsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/ClientsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/CommuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/CommuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/DevisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/DevisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/EvenementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/EvenementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/FactureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/FactureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/LogsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/LogsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/ModePaiementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/ModePaiementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/NotificationJournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/NotificationJournalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/NotificationParametrageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/NotificationParametrageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PaiementSoutraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PaiementSoutraService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PaiementsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PaiementsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PanneauxCampagneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PanneauxCampagneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PanneauxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PanneauxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PermissionUsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PermissionUsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/PermissionsProfilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/PermissionsProfilService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/ProfilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/ProfilService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/QuartierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/QuartierService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/RegionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/RegionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/RemiseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/RemiseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/SecteurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/SecteurService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/SoutraConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/SoutraConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/SoutraTransfertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/SoutraTransfertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/StatutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/StatutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/TarifsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/TarifsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/TypeClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/TypeClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/TypeEvenementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/TypeEvenementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/PasswordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SecParans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SecParans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SecurityUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SecurityUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SignatureEncryptionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SignatureEncryptionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/ogp/utils/SoutraTxnStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/regie/utils/SoutraTxnStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/ogp/ApiOGPApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/regie/ApiOGPApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/ekeny.ncho/Desktop/03 Personnel/Babin/Projects/OGP/API REGIE/api-regie" value="3JYsysX1EXl8HojTrQu4zBUig6w" />
+      <entry key="_/Users/ekeny.ncho/Desktop/03 Personnel/Babin/Projects/OGP/API/api-ogp" value="3GfnxGOdZ9cLd2OJ9wA6YGibT2V" />
+      <entry key="_/Users/ekeny.ncho/Desktop/Babin/Projects/OGP/API/api-ogp" value="2p4mMmrRVJeLagAuhtUdDX7Q24V" />
+    </persistenceIdMap>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ogp" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php@8.0/8.0.30_3/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2p4mMmrRVJeLagAuhtUdDX7Q24V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build api-ogp.executor": "Run",
+    "Gradle.Build api-paiement.executor": "Run",
+    "Gradle.Build api-plaque.executor": "Run",
+    "Gradle.Build api-regie.executor": "Run",
+    "Gradle.Build code.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiOGPApplication.executor": "Run",
+    "Spring Boot.ApiPaiementApplication.executor": "Run",
+    "Spring Boot.ApiPlaquesApplication.executor": "Run",
+    "Spring Boot.ApiRegieApplication.executor": "Run",
+    "Spring Boot.ApiSMSApplication.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ekeny.ncho/Desktop/03 Personnel/Babin/Projects/OGP/API REGIE/api-regie",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Qoder",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/api/plaques/dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.api.paiement.models" />
+      <recent name="com.api.paiement.dto" />
+      <recent name="com.api.paiement.controllers" />
+      <recent name="com.api.paiement.controllers.paiement" />
+      <recent name="com.api.paiement.implementations.paiement" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiRegieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ogp.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.api.regie.ApiRegieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cca40ce8-74c1-47fd-af29-d59489e92384" name="Changes" comment="" />
+      <created>1732033676243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732033676243</updated>
+      <workItem from="1732033677341" duration="144179000" />
+      <workItem from="1733135937508" duration="48512000" />
+      <workItem from="1733740239891" duration="103653000" />
+      <workItem from="1734534228719" duration="131000" />
+      <workItem from="1734535461126" duration="6772000" />
+      <workItem from="1735038436154" duration="783000" />
+      <workItem from="1735296956296" duration="996000" />
+      <workItem from="1736850848526" duration="48414000" />
+      <workItem from="1739266089838" duration="242000" />
+      <workItem from="1740140192517" duration="2059000" />
+      <workItem from="1740142647363" duration="2079000" />
+      <workItem from="1740152900091" duration="459000" />
+      <workItem from="1740153372573" duration="150000" />
+      <workItem from="1740153530142" duration="15853000" />
+      <workItem from="1740523602736" duration="6959000" />
+      <workItem from="1741186597084" duration="9308000" />
+      <workItem from="1741358706372" duration="32000" />
+      <workItem from="1746011438835" duration="1667000" />
+      <workItem from="1746191110743" duration="8335000" />
+      <workItem from="1753437786041" duration="9114000" />
+      <workItem from="1755768685994" duration="67000" />
+      <workItem from="1755768757692" duration="8919000" />
+      <workItem from="1755862203623" duration="14085000" />
+      <workItem from="1756286297501" duration="1277000" />
+      <workItem from="1756314871555" duration="3346000" />
+      <workItem from="1756847344726" duration="4732000" />
+      <workItem from="1756935756654" duration="46560000" />
+      <workItem from="1757635426263" duration="1965000" />
+      <workItem from="1757850999651" duration="69651000" />
+      <workItem from="1759830277074" duration="12421000" />
+      <workItem from="1762464867771" duration="9313000" />
+      <workItem from="1763050380078" duration="1925000" />
+      <workItem from="1763061291033" duration="18317000" />
+      <workItem from="1763636880342" duration="2441000" />
+      <workItem from="1763807229722" duration="34767000" />
+      <workItem from="1765019286112" duration="36382000" />
+      <workItem from="1765531867523" duration="567000" />
+      <workItem from="1765619116828" duration="42311000" />
+      <workItem from="1766403141058" duration="205000" />
+      <workItem from="1766420366669" duration="319000" />
+      <workItem from="1766764758757" duration="16862000" />
+      <workItem from="1766920215912" duration="9872000" />
+      <workItem from="1766933831683" duration="33000" />
+      <workItem from="1766933883094" duration="12874000" />
+      <workItem from="1767222655134" duration="16008000" />
+      <workItem from="1767442372987" duration="1338000" />
+      <workItem from="1767619932778" duration="16490000" />
+      <workItem from="1767862459533" duration="274000" />
+      <workItem from="1767862882157" duration="228000" />
+      <workItem from="1767863368605" duration="393000" />
+      <workItem from="1768172368904" duration="3759000" />
+      <workItem from="1768513631378" duration="5384000" />
+      <workItem from="1768757878470" duration="19226000" />
+      <workItem from="1769008510009" duration="118000" />
+      <workItem from="1769008660024" duration="10669000" />
+      <workItem from="1769090530660" duration="2859000" />
+      <workItem from="1769182149274" duration="4308000" />
+      <workItem from="1769979449399" duration="7412000" />
+      <workItem from="1771341211534" duration="2552000" />
+      <workItem from="1771367616351" duration="600000" />
+      <workItem from="1771759638200" duration="289000" />
+      <workItem from="1771759955135" duration="52000" />
+      <workItem from="1771760174795" duration="25289000" />
+      <workItem from="1772130121913" duration="11045000" />
+      <workItem from="1772194053404" duration="637000" />
+      <workItem from="1772277554637" duration="573000" />
+      <workItem from="1772278182995" duration="16985000" />
+      <workItem from="1773931276922" duration="1644000" />
+      <workItem from="1774816826317" duration="2790000" />
+      <workItem from="1774870249145" duration="397000" />
+      <workItem from="1774886374796" duration="14496000" />
+      <workItem from="1775295026744" duration="41000" />
+      <workItem from="1777122410232" duration="349000" />
+      <workItem from="1777122768651" duration="18000" />
+      <workItem from="1777122800625" duration="11927000" />
+      <workItem from="1777237486886" duration="1493000" />
+      <workItem from="1777651106109" duration="4807000" />
+      <workItem from="1778177814497" duration="292000" />
+      <workItem from="1779096936677" duration="78451000" />
+      <workItem from="1781707398987" duration="169000" />
+      <workItem from="1781807265409" duration="19963000" />
+      <workItem from="1782068975769" duration="1224000" />
+      <workItem from="1782145154772" duration="10903000" />
+      <workItem from="1783773034867" duration="4751000" />
+      <workItem from="1784371736603" duration="6599000" />
+      <workItem from="1786743121812" duration="82000" />
+      <workItem from="1789849595313" duration="2938000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.postgresql.util.PSQLException" package="org.postgresql.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
